@@ -66,9 +66,9 @@ const Agency = () => {
             TWO
           </h1>
         </div>
-        <div className="lg:pl-[35%] mt-20 px-5 font-[font2]">
+        <div className="lg:pl-[40%] mt-20 px-5 font-[font2]">
           <h2 className="text-6xl text-bold">
-           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;We're inquisitive and open-minded, and we make sure creativity
+           &emsp;&emsp;&emsp;&emsp;&emsp;We're inquisitive and open-minded, and we make sure creativity
             crowds out ego from every corner. A brand is a living thing, with
             values, a personality and a story. If we ignore that, we can achieve
             short-term success, but not influence that goes the distance. We
