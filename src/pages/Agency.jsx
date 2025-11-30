@@ -31,7 +31,7 @@ const Agency = () => {
       scrollTrigger:{
         trigger: imageDivRef.current,
         start: "top top",
-        end: window.innerHeight <= 1000 ? "top -120%" : "top -25%",
+        end: window.innerHeight <= 1000 ? "top -175%" : "top -50%",
         pin:true,
         pinSpacing: true,
         pinReparent: true,
@@ -82,10 +82,10 @@ const Agency = () => {
   {/* Expertise Section */}
   <div className="flex gap-[10vw] mt-20">
     <div>
-      <h1 className="text-3xl mb-6">Expertise</h1>
+      <h1 className="text-xl mb-6">Expertise</h1>
     </div>
 
-    <div className="flex flex-col pl-40 gap-2 text-2xl">
+    <div className="flex flex-col pl-45 gap-1 text-xl">
       <p>Strategy</p>
       <p>Advertising</p>
       <p>Branding</p>
@@ -95,7 +95,7 @@ const Agency = () => {
   </div>
 
   {/* Bottom 3 Columns */}
-  <div className="grid grid-cols-3 gap-[5vw] mt-[20vh] text-2xl leading-relaxed">
+  <div className="grid grid-cols-3 gap-[5vw] mt-[20vh] text-xl leading-relaxed">
 
     <div>
       <h3 className="font-semibold mb-3">Our Work_</h3>
